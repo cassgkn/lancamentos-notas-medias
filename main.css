@@ -141,22 +141,21 @@ table td img {
         padding: 15px 15px;
     }
     .container h1{
-        font-size: 1.2rem; 
+        font-size: 1.7rem; 
     }
 
     header {
-        display: flex;
-        align-items: center;
         margin-bottom: 20px;
     } 
 
     header img {
-        height: 50px;
+        height: 70px;
         margin-right: 10px;
         margin-left: 10px;
     }
 
     form button {
+        color: #fff;
         font-size: 12px;
         font-weight: bold;
         border:  none;
@@ -183,6 +182,7 @@ table td img {
 
     ::placeholder {
         font-size: 14px;
+        text-align: center;
     }
 
     table th {
