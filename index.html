@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamentos Notas | Médias</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@400;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&family=Ubuntu:wght@400;500;700&display=swap" 
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+   <div class="container">
+    <header>
+        <img src="./images/logo.png" alt="capelo e diploma">
+        <h1>Lançamentos Notas | Médias</h1>
+    </header>
+    <form id="form-atividade">
+        <input type="text" id="nome-atividade" required placeholder="Nome da atividade" />
+        <input type="number" id="nota-atividade"  required placeholder="Nota da Atividade" min="0" max="10" step="0.1"/>
+        <button type="submit">Adicionar</button>
+    </form>
+    <table cellspacing="0"  ><!--tag p/ iniciar a tabela -->
+        <thead><!--cabeçario-->
+            <tr><!--linha-->
+                <th>Nome da Atividade</th><!--coluna1-->
+                <th>Nota da Atividade</th><!--coluna2-->
+                <th>Status</th><!--coluna3-->
+            </tr>
+        </thead>
+        <tbody><!--corpo da tabela-->
+          
+        </tbody>
+        <tfoot><!--rodapé da tabela-->
+            <tr>
+                <td>Média Final</td>
+                <td id="media-final-valor">---</td>
+                <td id="media-final-resultado"><span class="resultado">---</span></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="rodape">
+        <footer>
+            Desenvolvido por Anderson Casimiro
+        </footer>
+    </div>
+   <script src="./main.js"></script>
+   </div>
+</body>
+</html>
