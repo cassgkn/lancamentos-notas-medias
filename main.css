@@ -136,8 +136,10 @@ table td img {
     margin: 50px 0;
 }
 
-@media screen and (max-width: 349px) {
+@media screen and (max-width: 412px) {
     .container{
+        display: flex;
+        flex-direction: column;
         padding: 15px 15px;
     }
     .container h1{
@@ -212,4 +214,5 @@ table td img {
     .rodape {
         font-size: 14px;
     }
+
 }
